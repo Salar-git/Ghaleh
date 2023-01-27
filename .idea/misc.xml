@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/dev/Android/GhalehTest/app/src/main/res/drawable/ic_add.xml" value="0.178" />
+        <entry key="..\:/dev/Android/GhalehTest/app/src/main/res/drawable/ic_favorite.xml" value="0.178" />
+        <entry key="..\:/dev/Android/GhalehTest/app/src/main/res/drawable/ic_favorite_border.xml" value="0.178" />
+        <entry key="..\:/dev/Android/GhalehTest/app/src/main/res/drawable/ic_filter.xml" value="0.178" />
+        <entry key="..\:/dev/Android/GhalehTest/app/src/main/res/drawable/ic_power.xml" value="0.178" />
+        <entry key="..\:/dev/Android/GhalehTest/app/src/main/res/drawable/ic_remove.xml" value="0.178" />
+        <entry key="..\:/dev/Android/GhalehTest/app/src/main/res/drawable/sheet_box.xml" value="0.206" />
+        <entry key="..\:/dev/Android/GhalehTest/app/src/main/res/drawable/white_button.xml" value="0.206" />
+        <entry key="..\:/dev/Android/GhalehTest/app/src/main/res/drawable/white_button_active.xml" value="0.206" />
+        <entry key="..\:/dev/Android/GhalehTest/app/src/main/res/layout/adapter_content_item.xml" value="0.36102564102564105" />
+        <entry key="..\:/dev/Android/GhalehTest/app/src/main/res/layout/dialog_log_in.xml" value="0.3388888888888889" />
+        <entry key="..\:/dev/Android/GhalehTest/app/src/main/res/layout/dialog_log_out.xml" value="0.36666666666666664" />
+        <entry key="..\:/dev/Android/GhalehTest/app/src/main/res/layout/fragment_blank.xml" value="0.35260416666666666" />
+        <entry key="..\:/dev/Android/GhalehTest/app/src/main/res/layout/fragment_category_selection.xml" value="0.35260416666666666" />
+        <entry key="..\:/dev/Android/GhalehTest/app/src/main/res/layout/fragment_content_discovery.xml" value="0.33" />
+        <entry key="..\:/dev/Android/GhalehTest/app/src/main/res/layout/fragment_contetn.xml" value="0.36666666666666664" />
+        <entry key="..\:/dev/Android/GhalehTest/app/src/main/res/layout/fragment_onboard.xml" value="0.3388888888888889" />
+        <entry key="..\:/dev/Android/GhalehTest/app/src/main/res/layout/fragment_test.xml" value="0.36666666666666664" />
+        <entry key="..\:/dev/Android/GhalehTest/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.206" />
+        <entry key="..\:/dev/Android/MatchMe/app/src/main/res/drawable/ic_brand.xml" value="0.2775" />
+        <entry key="..\:/dev/Android/MatchMe/app/src/main/res/layout/activity_main.xml" value="0.15" />
+        <entry key="..\:/dev/Android/MatchMe/app/src/main/res/layout/adapter_test_item.xml" value="0.271875" />
+        <entry key="..\:/dev/Android/MatchMe/app/src/main/res/layout/fragment_splash_screen.xml" value="0.27291666666666664" />
+        <entry key="..\:/dev/Android/MatchMe/app/src/main/res/layout/fragment_test.xml" value="0.27291666666666664" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

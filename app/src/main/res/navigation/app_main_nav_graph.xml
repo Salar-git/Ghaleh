@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/app_main_nav_graph"
+    app:startDestination="@id/onboardFragment">
+
+    <fragment
+        android:id="@+id/onboardFragment"
+        android:name="ir.iamsalar.ghaleh.view.fragment.OnboardFragment"
+        android:label="fragment_onboard"
+        tools:layout="@layout/fragment_onboard" >
+        <action
+            android:id="@+id/action_onboardFragment_to_categorySelectionFragment"
+            app:destination="@id/categorySelectionFragment"
+            app:popUpTo="@id/onboardFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/categorySelectionFragment"
+        android:name="ir.iamsalar.ghaleh.view.fragment.CategorySelectionFragment"
+        android:label="fragment_category_selection"
+        tools:layout="@layout/fragment_category_selection" >
+        <action
+            android:id="@+id/action_categorySelectionFragment_to_contentDiscoveryFragment"
+            app:destination="@id/contentDiscoveryFragment"
+            app:popUpTo="@id/categorySelectionFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/contentDiscoveryFragment"
+        android:name="ir.iamsalar.ghaleh.view.fragment.ContentDiscoveryFragment"
+        android:label="fragment_content_discovery"
+        tools:layout="@layout/fragment_content_discovery" >
+        <action
+            android:id="@+id/action_contentDiscoveryFragment_to_categorySelectionFragment"
+            app:destination="@id/categorySelectionFragment"
+            app:popUpTo="@id/contentDiscoveryFragment"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_contentDiscoveryFragment_to_onboardFragment"
+            app:destination="@id/onboardFragment"
+            app:popUpTo="@id/contentDiscoveryFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+</navigation>

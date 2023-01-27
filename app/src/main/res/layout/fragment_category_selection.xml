@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".view.fragment.CategorySelectionFragment">
+
+    <data>
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:orientation="vertical">
+
+        <com.mikhaellopez.circularprogressbar.CircularProgressBar
+            android:id="@+id/cpb_category_list"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_marginTop="32dp"
+            app:cpb_background_progressbar_color="@color/grey_light"
+            app:cpb_background_progressbar_width="7dp"
+            app:cpb_progress_direction="to_right"
+            app:cpb_progress_max="100"
+            app:cpb_progressbar_color="@color/main"
+            app:cpb_progressbar_width="4dp"
+            app:cpb_round_border="true"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <!-- TODO: Update blank fragment layout -->
+        <TextView
+            android:id="@+id/tv_size"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="0"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@id/cpb_category_list"
+            app:layout_constraintEnd_toEndOf="@id/cpb_category_list"
+            app:layout_constraintStart_toStartOf="@id/cpb_category_list"
+            app:layout_constraintTop_toTopOf="@id/cpb_category_list" />
+
+        <TextView
+            android:id="@+id/tv_message"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="32dp"
+            android:gravity="center"
+            android:justificationMode="inter_word"
+            android:lineSpacingExtra="8dp"
+            android:text="choose Content you Like to Publish for\nChoose at Least 5"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/cpb_category_list" />
+
+        <com.google.android.material.chip.ChipGroup
+            android:id="@+id/chip_group_my_categories"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32sp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="32dp"
+            android:animateLayoutChanges="true"
+
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_message">
+
+        </com.google.android.material.chip.ChipGroup>
+
+        <com.google.android.material.chip.ChipGroup
+            android:id="@+id/chip_group_categories"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32sp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginBottom="16dp"
+            android:animateLayoutChanges="true"
+
+            app:layout_constraintBottom_toTopOf="@id/btn_continue"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent">
+
+        </com.google.android.material.chip.ChipGroup>
+
+        <Button
+            android:id="@+id/btn_continue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="32dp"
+            android:enabled="false"
+            android:insetTop="0dp"
+            android:insetBottom="0dp"
+            android:text="@string/continue_string"
+            android:textAllCaps="false"
+            app:cornerRadius="10dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
